@@ -1304,3 +1304,90 @@ export const sliderOWL = {
     
   ]
 }
+
+export const contentListaElemento = {
+  "tabs": [
+    {
+      "title": "General",
+        "table": {
+          "data":[
+            [
+              'Title',
+              {type: <code>Title → input</code>, description: <>Used to add a title at the top of the block</>},
+            ],
+          ]
+        }
+    },
+  ]
+}
+export const listaElemento = {
+  "tabs": [
+    {
+      "title": "General",
+      "table": {
+        "data": [
+          [
+            'Item list layout',
+            { type: <code>Item list layout → input</code>, description: <>Used to</>},
+          ],
+          [
+            'See label button',
+            { type: <code>See label button → input</code>, description: <>Used to add text to the block button</>},
+          ],
+          [
+            'Item list parameters',
+            { type: <code>Item list parameters → code</code>, description: <>Used to</>},
+          ],
+          [
+            'Responsive content',
+            { type: <code>Responsive content → code</code>, description: <>Used to</>},
+          ],
+          [
+            'With user',
+            { type: <code></code>, description: <>Used to</>},
+          ],
+          [
+            'With user → select(yes / no)',
+            { type: <code></code>, description: <>Used to</>},
+          ],
+          [
+            'Show title',
+            { type: <code>Show title → select(yes / no)</code>, description: <>Used to define whether the title will be displayed in the block</>},
+          ],
+          [
+            'Configuration order by',
+            { type: <code>Configuration order by → input</code>, description: <>Used to</>},
+          ],
+          [
+            'Configuración del layout',
+            { type: <code>Configuración del layout → input</code>, description: <>Used to</>},
+          ],
+          [
+            'Pagination',
+            { type: <code>Pagination→ code</code>, description: <>Used to</>},
+          ],
+          [
+            'Item modal',
+            { type: <code>Item modal → code</code>, description: <>Used to</>},
+          ],
+          [
+            'Carousel attributes',
+            { type: <code>Carousel attributes → code</code>, description: <>Used to</>},
+          ],
+          [
+            'Render a single item list',
+            { type: <code>Render a single item list → select(yes / no)</code>, description: <>Used to</>},
+          ],
+          [
+            'Description',
+            { type: <code>Description → input</code>, description: <>Used to add text to the description in the block</>},
+          ],
+          [
+            'Disable filters',
+            { type: <code>Disable filters → select(yes / no)</code>, description: <>Used to define whether the filters will be used in the block</>},
+          ],
+        ]
+      }
+    },
+  ]
+}
