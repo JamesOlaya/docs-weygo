@@ -504,7 +504,7 @@ export const Block = {
           ],
           [
             'Easing',
-            {type: <code>Easing → select</code>, description: <>***********************</>}
+            {type: <code>Easing → select</code>, description: <>Used to define the behavior of the entry animation of the elements</>}
           ],
           [
             'One',
@@ -523,7 +523,7 @@ export const Block = {
         "data": [
           [
               'Responsive custom',
-              {type: <code>Responsive custom → html</code>, description: <>******************************</>}
+              {type: <code>Responsive custom → html</code>, description: <>Used to add styles to the block element</>}
           ],
         ]
       }
@@ -1111,8 +1111,7 @@ export const Element = {
             ],
             [
               'Controls',
-              {type: <code>Controls → select (yes  / no)</code>, description: <> used to define whether the video ***************
-              </>}
+              {type: <code>Controls → select (yes  / no)</code>, description: <>Used to define whether the buttons that control the video, pause, volume, mute will be used</>}
             ],
           ]
         }
@@ -1143,7 +1142,7 @@ export const Element = {
             ],
             [
               'shadow',
-              {type: <code>Shadow → input</code>, description: <>******</>}
+              {type: <code>Shadow → input</code>, description: <>Used to define the shadow configuration that will be used in the element, example: box-shadow: 29px 29px 9px 4px rgba(0,0,0,0.75);</>}
             ],
             [
               'Image effect',
